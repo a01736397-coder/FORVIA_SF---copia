@@ -5,7 +5,7 @@ from utils.analysis_function import filter_projects
 
 
 st.title("Analisis de proyectos")
-df = load_project_data
+df = load_project_data()
 with st.sidebar:
     st.markdown("### Filtros proyectos")
 

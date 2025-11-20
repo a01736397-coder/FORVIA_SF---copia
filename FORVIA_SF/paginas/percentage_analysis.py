@@ -5,7 +5,7 @@ from utils.analysis_function import filter_percentage
 
 st.title("Análisis de porcentajes no completados")
 
-df = load_percentage_data
+df = load_percentage_data()
 with st.sidebar:
     st.markdown('### Filtros')
 
