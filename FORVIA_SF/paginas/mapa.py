@@ -1,5 +1,5 @@
 import streamlit as st
-from utils.data_loader import load_project_data
+from utils.dataloader import load_project_data
 from utils.analysis_functions import assign_coords_to_projects
 from streamlit_folium import st_folium
 import folium
